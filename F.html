@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple HTML Game</title>
+</head>
+<body>
+  <!-- Add a container for the game -->
+  <div id="game">
+    <!-- Add the player element -->
+    <div id="player"></div>
+  </div>
+
+  <!-- Add a form for the player to enter their name -->
+  <form id="form">
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <input type="submit" value="Start Game">
+  </form> 
+
+  <!-- Add a scoreboard -->
+  <div id="scoreboard">
+    <h1>Scoreboard</h1>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td id="player-name"></td>
+        <td id="player-score">0</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Add a button to add points to the player's score -->
+  <button id="add-point-button">Add Point</button>
+</body>
+</html>

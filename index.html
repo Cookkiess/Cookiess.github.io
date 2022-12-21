@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-body {
-  background-image: url('https://wallpaperaccess.com/full/6349539.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 110%;
-}
-</style>
+<meta charset="utf-8" />
+<title>HTML5 snake - Canvas Snake Game</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="page.css" type="text/css">
 </head>
 <body>
-    <title>BOO!</title>
-    <h1 style = "position:relative; left:911px; top:250px;" >BOO!<h1>
+
+<h1>html5-snake</h1>
+<p><a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a> variation of the classic <a href="http://en.wikipedia.org/wiki/Snake_(video_game)">snake game</a>.</p>
+
+<div>
+  <canvas id="the-game" width="320" height="240">
+</div>
+
+<p>Control snake with arrow keys, WASD, or HJKL (vim keys).</p>
+
+<p>New food may appear under snake, uncoil to reveal.</p>
+
+<p>Collect the food to grow and increase speed.</p>
+
+<p>&copy; 2013 - <a href="http://JDStraughan.com">JDStraughan.com</a> - <a href="https://github.com/JDStraughan/html5-snake">Source on GitHub</a></p>  
+<script type="text/javascript" src="game.js"></script>
 </body>
-</html
+</html>
